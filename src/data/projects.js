@@ -1,3 +1,4 @@
+import autoconnect from "../assets/images/autoconnect.png";
 import dinofusion from "../assets/images/dinofusion.png";
 import plantdisease from "../assets/images/plantdisease.png";
 import textanalysis from "../assets/images/textanalysis.png";
@@ -7,45 +8,52 @@ import vaxtrack from "../assets/images/vaxtrack.png";
 
 export const projects = [
   {
+    title: "AutoConnect",
+    image: autoconnect,
+    link: "https://landing.ishaan-chadha.com/projects",
+    description:
+      "LinkedIn Bot that connects with recruiters and sends targeted messages.",
+  },
+  {
     title: "Dino Fusion",
     image: dinofusion,
     link: "https://landing.ishaan-chadha.com/projects",
     description:
-      "A website that helps you build your own hybrid dinosaurs—explore the prehistoric unknown with Dino Fusion! Morph dinosaurs to create unique offspring while learning fascinating dino facts along the way.",
+      "Website for building hybrid dinosaurs by morphing species and learning dino facts.",
   },
   {
-    title: "Plant Disease Detector",
+    title: "Disease Detector",
     image: plantdisease,
     link: "https://landing.ishaan-chadha.com/projects",
     description:
-      "A website that empowers you to safeguard crops—detect plant diseases early with precision! Use advanced image recognition to identify diseases and gain insights into plant health for smarter farming decisions.",
+      "Crop health platform using image recognition for early detection.",
   },
   {
     title: "Text Analysis",
     image: textanalysis,
     link: "https://landing.ishaan-chadha.com/projects",
     description:
-      "A project that uncovers hidden patterns in text—analyze language like never before! Discover key insights and improve communication by predicting word sequences with advanced text analysis techniques.",
+      "Text analysis tool that predicts word sequences to uncover language patterns.",
   },
   {
-    title: "RecipeRevamp: Data-Driven Recipes",
+    title: "Recipe Revamp",
     image: reciperevamp,
     link: "https://landing.ishaan-chadha.com/projects",
     description:
-      "A project that helps you improve your recipe ratings with data-driven insights—analyze ingredients and recipe characteristics to uncover the secrets to higher ratings and better culinary creations!",
+      "Recipe analytics revealing ingredient factors that drive higher ratings.",
   },
   {
     title: "NBA Win Predictor",
     image: nbapredictor,
     link: "https://landing.ishaan-chadha.com/projects",
     description:
-      "Betting Made Easier – An NBA Win Predictor that leverages deep learning and advanced statistical features to forecast game outcomes. Get smarter insights and boost your confidence with reliable predictions for every matchup.",
+      "Leveraging deep learning and stats to forecast game outcomes.",
   },
   {
-    title: "VaxTrack: COVID Vaccination Trends",
+    title: "VaxTrack",
     image: vaxtrack,
     link: "https://landing.ishaan-chadha.com/projects",
     description:
-      "A project that uncovers the impact of COVID-19 vaccinations—explore global vaccination trends and effectiveness! Gain key insights into pandemic development and health outcomes using advanced data analysis techniques.",
+      "COVID-19 vaccination tracker analyzing global trends and effectiveness.",
   },
 ];
