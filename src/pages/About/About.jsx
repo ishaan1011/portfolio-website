@@ -49,13 +49,11 @@ export const About = () => {
       <Page header="About">
         <Text>
           <Paragraph>
-            I'm Ishaan Chadha, a senior at UC San Diego majoring in Mathematics and Computer Science, 
-            with a focus on machine learning, computer vision, and natural language processing. My work 
-            centers around using AI to solve real-world problems, from building web scrapers and chatbots 
-            to developing machine learning models that optimize recommendations.
-            <br />I'm particularly passionate about using cloud computing, CNNs, and data-driven techniques 
-            to innovate and drive progress in AI. Currently, I'm delving deeper into AI-driven solutions, 
-            always looking to tackle new challenges and push the boundaries of technology.
+                     Hi, I'm <strong>Ishaan Chadha</strong>. I'm the <strong>lead engineer at Comm360</strong>, and I'm passionate about using <strong>AI</strong> to
+           create more efficient and effective communication. My role involves building the <strong>full-stack
+           AI systems</strong> that power our platform, which turns every employee into an <strong>"always-on" AI service</strong>.
+                       Previously I conducted research on the human visual system at <strong>UCSD's NeuroML Lab</strong>. You can
+            check out my paper <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
           </Paragraph>
           <Educations>
             <AboutItem

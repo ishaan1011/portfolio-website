@@ -1,11 +1,24 @@
 import styled from "styled-components";
-import { typeScale } from "../../utils";
+import { typeScale, blue } from "../../utils";
 
 export const Paragraph = styled.p`
   font-size: ${typeScale.text};
   grid-column: 2/ 7;
   line-height: 2rem;
   padding-block: 2rem;
+  
+  a {
+    color: ${blue["60"]};
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: ${blue["80"]};
+      text-decoration: underline;
+    }
+  }
+  
   @media screen and (max-width: 720px) {
     grid-column: 1 / 7;
     font-size: ${typeScale.paragraph};

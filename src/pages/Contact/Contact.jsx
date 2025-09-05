@@ -22,7 +22,7 @@ export const Contact = () => {
     <Page header="Contact">
       <ContactWrapper>
         <ContactForm
-          action="mailto:ishaan.chadha@ucsd.edu"
+          action="mailto:ichadha.work@gmail.com"
           method="POST"
           name="contact"
           id="contactform"
@@ -58,7 +58,7 @@ export const Contact = () => {
         <div className="buttons">
           <div className="socials">
             <a
-              href="https://www.linkedin.com/in/ishaan-chadha/"
+              href="https://www.linkedin.com/in/ishaanchadha-ucsd/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,14 +67,14 @@ export const Contact = () => {
               </IconButton>
             </a>
 
-            <a href="mailto:ishaan.chadha@ucsd.edu">
+            <a href="mailto:ichadha.work@gmail.com">
               <IconButton bg={green}>
                 <AiOutlineMail size={40} />
               </IconButton>
             </a>
 
             <a
-              href="https://github.com/ishaan-chadha"
+              href="https://github.com/ishaan1011"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,13 +84,13 @@ export const Contact = () => {
             </a>
 
             <a
-              href="https://landing.ishaan-chadha.com"
+              href="https://drive.google.com/file/d/1hZLs4cTKE0ZDcPaBL8DNub2wR6VjnGOr/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <DownloadButton bg={red} tooltip="Visit Website">
+              <DownloadButton bg={red} tooltip="Download Resume">
                 <AiOutlineDownload size={40} />
-                <span>Website</span>
+                <span>Resume</span>
               </DownloadButton>
             </a>
           </div>

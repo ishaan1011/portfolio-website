@@ -16,17 +16,19 @@ const Skills = () => {
     "Python",
     "JavaScript",
     "TypeScript",
-    "Dart",
+    "WebRTC",
     "HTML",
-    "CSS",
-    "Django",
+    "SQL",
+    "PostgreSQL",
     "Flutter",
     "ReactJs",
-    "NextJS",
+    "Docker",
     "NodeJs",
     "ExpressJS",
     "ThreeJs",
-    "Redux",
+    "Git",
+    "REST APIs",
+    "AWS"
   ];
   const g = useRef();
   useFrame(() => {
