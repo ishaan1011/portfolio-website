@@ -20,7 +20,7 @@ export const StyledExperienceItem = styled.div`
   cursor: pointer;
   .date {
     display: none;
-    font-size: ${typeScale.paragraph};
+    font-size: ${typeScale.helperText};
     font-weight: bold;
   }
 
@@ -59,8 +59,8 @@ export const StyledExperienceItem = styled.div`
     }
 
     h2 {
-      font-size: ${typeScale.title};
-      line-height: 2.4rem;
+      font-size: ${typeScale.subtitle};
+      line-height: 1.8rem;
     }
     .position {
       display: none;
@@ -68,7 +68,8 @@ export const StyledExperienceItem = styled.div`
   }
   p {
     display: none;
-    font-size: ${typeScale.text};
+    font-size: ${typeScale.helperText};
+    line-height: 1.3rem;
   }
 
   &.active {
@@ -107,8 +108,8 @@ export const StyledExperienceItem = styled.div`
         line-height: 1.75rem;
       }
       .position {
-        font-size: ${typeScale.paragraph};
-        line-height: 1.5rem;
+        font-size: ${typeScale.helperText};
+        line-height: 1.3rem;
       }
       .image {
         .wrapper {
