@@ -7,9 +7,8 @@ import { blue, green, yellow } from "../../utils";
 import { Educations, Paragraph, SkillsWrapper, Text } from "./About.styled";
 import { AboutItem } from "./AboutItem";
 import Skills from "./SkillBall";
-import dyp from "../../assets/images/dyp.png";
-import highschool from "../../assets/images/highschool.jpeg";
-import sos from "../../assets/images/sos.png";
+import ucsd from "../../assets/images/ucsd.png";
+import krm from "../../assets/images/krm.png";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 
@@ -61,16 +60,16 @@ export const About = () => {
               active
               data={{
                 title: "University of California, San Diego",
-                p: "Bachelor's in Mathematics and Computer Science (Current)",
-                image: dyp,
+                p: "B.S. Mathematics & Computer Science, Minor in Data Science (2021-2025)",
+                image: ucsd,
               }}
             />
             <AboutItem
               color={green}
               data={{
-                title: "High School Education",
-                p: "Completed Secondary Education",
-                image: highschool,
+                title: "K R Mangalam World School",
+                p: "High School Education (2017-2021)",
+                image: krm,
               }}
             />
           </Educations>
