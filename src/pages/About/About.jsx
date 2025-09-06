@@ -3,7 +3,7 @@ import gsap from "gsap";
 import Flip from "gsap/Flip";
 import React, { useEffect } from "react";
 import { Page } from "../../components/Page";
-import { blue, green, yellow } from "../../utils";
+import { blue, emerald, glaucous } from "../../utils";
 import { Educations, Paragraph, SkillsWrapper, Text } from "./About.styled";
 import { AboutItem } from "./AboutItem";
 import Skills from "./SkillBall";
@@ -65,7 +65,7 @@ export const About = () => {
               }}
             />
             <AboutItem
-              color={green}
+              color={emerald}
               data={{
                 title: "K R Mangalam World School",
                 p: "High School Education (2017-2021)",
