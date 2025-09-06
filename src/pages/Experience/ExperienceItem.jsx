@@ -19,7 +19,7 @@ export const ExperienceItem = (props) => {
       <div className="date">
         {data.joined} - {data.end}
       </div>
-      <p>{data.bio}</p>
+      <p dangerouslySetInnerHTML={{ __html: data.bio }}></p>
     </StyledExperienceItem>
   );
 };

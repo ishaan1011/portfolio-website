@@ -69,7 +69,7 @@ export const StyledExperienceItem = styled.div`
   }
   p {
     display: none;
-    font-size: ${typeScale.text};
+    font-size: ${typeScale.paragraph};
   }
 
   &.active {
@@ -91,11 +91,14 @@ export const StyledExperienceItem = styled.div`
           rotate: 0deg;
         }
       }
-      .text {
-        .position {
-          display: block;
+        .text {
+          h2 {
+            margin-bottom: 0.15rem;
+          }
+          .position {
+            display: block;
+          }
         }
-      }
     }
   }
 

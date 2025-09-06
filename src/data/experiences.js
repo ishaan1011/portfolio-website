@@ -15,7 +15,7 @@ export const experiences = [
     joined: "November 2024",
     end: "Present",
     title: "Software Engineer",
-    bio: "Python, PyTorch, RAG, FastAPI, REST APIs, JavaScript, React.js, Node.js, WebRTC, mediasoup, Docker, Git, AWS",
+    bio: "As a Lead Engineer at TipTop Technologies, I led the development of a full-stack AI platform, Comm360, to automate meeting participation and enable real-time, multilingual communication. I designed and deployed a retrieval-augmented generation (RAG) engine that provides contextual insights by indexing company conversations, transcripts, and chat logs.",
     color: emerald,
   },
   {
@@ -24,7 +24,7 @@ export const experiences = [
     joined: "May 2024",
     end: "March 2025",
     title: "Undergraduate Researcher",
-    bio: "Co-authored a research paper submitted to ICLR 2025, introducing a novel framework for modeling the human visual system by comparing Task-Optimized, Large Language, and Response-Optimized Models. Developed the Semantic Spatial Transformer readout mechanism, achieving a 30% increase in prediction accuracy across the visual cortex.",
+    bio: "As a Research Assistant at the NeuroML Lab, I published a <a href='https://arxiv.org/pdf/2410.14031' target='_blank' rel='noopener noreferrer' style='color: inherit; text-decoration: underline;'>Research Paper</a> that was accepted into <a href='https://2025.ccneuro.org' target='_blank' rel='noopener noreferrer' style='color: inherit; text-decoration: underline;'>CCN 2025</a>. In this paper, I introduced a novel framework for modeling the human visual system and developed the Semantic Spatial Transformer readout mechanism, which increased prediction accuracy across the visual cortex by 30%.",
     color: mindaro,
   },
   // {
@@ -42,7 +42,7 @@ export const experiences = [
     joined: "May 2024",
     end: "September 2024",
     title: "Software Engineer Intern",
-    bio: "Developed web scrapers using Selenium and BeautifulSoup to extract over 5,000 speaker profiles, integrating OpenAI's API to adapt to website layout changes. Engineered a keyword generation tool with OpenAI's API, boosting speaker recommendation accuracy by 40%. Utilized scikit-learn and spaCy for NLP preprocessing, achieving 35% precision improvement in profile matching. Developed an unsupervised speaker-event matching model with 85% accuracy using Word2Vec embeddings and Sentence Transformers.",
+    bio: "At World Salon, I engineered an AI pipeline for discovering and semantically analyzing over 5,000 speaker profiles from the web and LinkedIn. I developed advanced NLP workflows and built a retrieval-augmented generation (RAG) system using vector databases and OpenAI APIs to match speakers to topics for curated events.",
     // color: sunset,
     color: vanilla,
   },
@@ -52,7 +52,7 @@ export const experiences = [
     joined: "March 2024",
     end: "December 2024",
     title: "CSE Tutor",
-    bio: "Conducted review sessions and facilitated office hours for over 400 students, boosting exam performance. Collaborated with faculty on curriculum development and addressed over 200 student inquiries, enhancing the learning community.",
+    bio: "At UC San Diego's Computer Science & Engineering department, I served as a CSE Tutor, where I conducted review sessions and held office hours for over 400 students. I also collaborated with faculty on curriculum development and addressed more than 200 student inquiries.",
     color: sunset, //thistle
   },
   // {
@@ -70,7 +70,7 @@ export const experiences = [
     joined: "May 2022",
     end: "September 2022",
     title: "Software Engineer Intern",
-    bio: "Gained deep insights into product and service development processes, playing a key role in crafting Bajaj Capital's innovative retirement tool. Mapped user engagement patterns across over 200 website pages, leveraging design thinking methodologies. Designed and executed an innovative authentication framework leveraging Sequelize, Node.js, and MySQL, enhancing security measures and reducing unauthorized access attempts by 50%.",
+    bio: "As a Software Engineer Intern at Bajaj Capital, I improved the cloud infrastructure by optimizing key AWS solutions like EC2, SES, and ELB, which led to increased scalability, streamlined operations, and improved system uptime. I also designed a secure authentication framework using Node.js and MySQL, which reduced unauthorized access by 50% and improved login speeds for over 5,000 users.",
     color: thistle,
   },
 ];
