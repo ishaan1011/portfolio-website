@@ -21,12 +21,12 @@ export const Contact = () => {
   return (
     <Page header="Contact">
       <ContactWrapper>
-        <ContactForm
-          action="mailto:ichadha.work@gmail.com"
-          method="POST"
-          name="contact"
-          id="contactform"
-        >
+          <ContactForm
+            action="https://formspree.io/f/mandlrjq"
+            method="POST"
+            name="contact"
+            id="contactform"
+          >
           <Input
             placeholder="Name"
             type="text"
@@ -54,6 +54,16 @@ export const Contact = () => {
             }}
             value={form.message}
           />
+          <Button
+            type="submit"
+            disabled={
+              form.email.length <= 0 ||
+              form.name.length <= 0 ||
+              form.message.length <= 0
+            }
+          >
+            Submit
+          </Button>
         </ContactForm>
         <div className="buttons">
           <div className="socials">
@@ -94,18 +104,6 @@ export const Contact = () => {
               </DownloadButton>
             </a>
           </div>
-          <Button
-            disabled={
-              form.email.length <= 0 ||
-              form.name.length <= 0 ||
-              form.message.length <= 0
-            }
-            onClick={() => {
-              document.forms["contact"].submit();
-            }}
-          >
-            Submit
-          </Button>
         </div>
       </ContactWrapper>
     </Page>
