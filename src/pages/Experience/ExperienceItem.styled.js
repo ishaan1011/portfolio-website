@@ -11,7 +11,7 @@ export const StyledExperienceItem = styled.div`
   box-shadow: 0.8rem 0.8rem 0
     ${(props) => (props.color ? props.color["00"] : blue["00"])};
   border-radius: 1rem;
-  height: 400px;
+  height: 450px;
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,8 @@ export const StyledExperienceItem = styled.div`
   cursor: pointer;
   .date {
     display: none;
-    font-size: ${typeScale.helperText};
+    font-size: ${typeScale.paragraph};
+
     font-weight: bold;
   }
 
@@ -59,8 +60,8 @@ export const StyledExperienceItem = styled.div`
     }
 
     h2 {
-      font-size: ${typeScale.subtitle};
-      line-height: 1.8rem;
+      font-size: ${typeScale.title};
+      line-height: 2.4rem;
     }
     .position {
       display: none;
@@ -68,8 +69,7 @@ export const StyledExperienceItem = styled.div`
   }
   p {
     display: none;
-    font-size: ${typeScale.helperText};
-    line-height: 1.3rem;
+    font-size: ${typeScale.text};
   }
 
   &.active {
@@ -108,8 +108,8 @@ export const StyledExperienceItem = styled.div`
         line-height: 1.75rem;
       }
       .position {
-        font-size: ${typeScale.helperText};
-        line-height: 1.3rem;
+        font-size: ${typeScale.paragraph};
+        line-height: 1.5rem;
       }
       .image {
         .wrapper {

@@ -3,7 +3,7 @@ import gsap from "gsap";
 import Flip from "gsap/Flip";
 import React, { useEffect } from "react";
 import { Page } from "../../components/Page";
-import { blue, emerald, glaucous } from "../../utils";
+import { blue, emerald, green } from "../../utils";
 import { Educations, Paragraph, SkillsWrapper, Text } from "./About.styled";
 import { AboutItem } from "./AboutItem";
 import Skills from "./SkillBall";
@@ -64,14 +64,14 @@ export const About = () => {
                 image: ucsd,
               }}
             />
-            <AboutItem
-              color={emerald}
+            {/* <AboutItem
+              color={green}
               data={{
                 title: "K R Mangalam World School",
                 p: "High School Education (2017-2021)",
                 image: krm,
               }}
-            />
+            /> */}
           </Educations>
         </Text>
         <SkillsWrapper>
