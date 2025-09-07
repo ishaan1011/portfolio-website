@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 import { Button } from "../../components/form/";
 import { Cube, Face } from "./ProjectItem.styled";
 
@@ -19,9 +20,9 @@ export const ProjectItem = ({ data, index }) => {
               </a>
             )}
             {data.link && (
-              <a href={data.link} target="_blank" rel="noopener noreferrer">
+              <Link to={data.link}>
                 <Button sm>Visit</Button>
-              </a>
+              </Link>
             )}
           </div>
         </div>
