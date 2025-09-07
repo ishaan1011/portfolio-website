@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { projects } from "../../data";
 import { 
@@ -9,6 +9,8 @@ import {
   ProjectImage, 
   ProjectContent,
   MainContent,
+  ImageGallery,
+  AdditionalImage,
   Sidebar,
   TechnologyList,
   TechnologyTag,
@@ -22,12 +24,28 @@ export const ProjectDetail = () => {
   const navigate = useNavigate();
   
   const project = projects.find(p => p.id === projectId);
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [projectId]);
+
+  const handleBackToPortfolio = () => {
+    navigate("/");
+    // Small delay to ensure navigation completes before scrolling
+    setTimeout(() => {
+      const projectsSection = document.getElementById("projects-page");
+      if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: "instant" });
+      }
+    }, 100);
+  };
   
   if (!project) {
     return (
       <ProjectDetailWrapper>
         <Container>
-          <BackButton onClick={() => navigate("/")}>← Back to Portfolio</BackButton>
+          <BackButton onClick={handleBackToPortfolio}>← Back to Portfolio</BackButton>
           <div style={{ textAlign: "center", marginTop: "2rem" }}>
             <h1>Project Not Found</h1>
             <p>The project you're looking for doesn't exist.</p>
@@ -39,8 +57,8 @@ export const ProjectDetail = () => {
 
   return (
     <ProjectDetailWrapper>
-      <Container>
-        <BackButton onClick={() => navigate("/")}>← Back to Portfolio</BackButton>
+        <Container>
+        <BackButton onClick={handleBackToPortfolio}>← Back to Portfolio</BackButton>
         
         <ProjectHeader>
           <ProjectImage src={project.image} alt={project.title} />
@@ -53,13 +71,6 @@ export const ProjectDetail = () => {
         <ProjectContent>
           <MainContent>
             <Section>
-              <h2>About This Project</h2>
-              <p>{project.fullDescription}</p>
-            </Section>
-          </MainContent>
-
-          <Sidebar>
-            <Section>
               <h2>Technologies Used</h2>
               <TechnologyList>
                 {project.technologies.map((tech, index) => (
@@ -67,7 +78,18 @@ export const ProjectDetail = () => {
                 ))}
               </TechnologyList>
             </Section>
-          </Sidebar>
+            
+            <Section>
+              <h2>About This Project</h2>
+              <p>{project.fullDescription}</p>
+            </Section>
+          </MainContent>
+
+          <ImageGallery>
+            {project.additionalImages && project.additionalImages.map((image, index) => (
+              <AdditionalImage key={index} src={image} alt={`${project.title} screenshot ${index + 1}`} />
+            ))}
+          </ImageGallery>
         </ProjectContent>
       </Container>
     </ProjectDetailWrapper>

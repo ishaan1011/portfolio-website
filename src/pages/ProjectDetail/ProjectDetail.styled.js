@@ -60,7 +60,8 @@ export const ProjectHeader = styled.div`
   h1 {
     font-size: ${typeScale.display};
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+    background: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, #ddd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -92,8 +93,8 @@ export const ProjectHeader = styled.div`
 `;
 
 export const ProjectImage = styled.img`
-  width: 350px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 1.5rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
@@ -105,8 +106,8 @@ export const ProjectImage = styled.img`
   }
 
   @media screen and (max-width: 720px) {
-    width: 100%;
-    height: 250px;
+    width: 280px;
+    height: 280px;
   }
 `;
 
@@ -116,7 +117,7 @@ export const ProjectContent = styled.div`
   grid-template-columns: 1fr;
 
   @media screen and (min-width: 968px) {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
   }
 `;
@@ -125,6 +126,26 @@ export const MainContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3rem;
+`;
+
+export const ImageGallery = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+`;
+
+export const AdditionalImage = styled.img`
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `;
 
 export const Sidebar = styled.div`
@@ -138,7 +159,7 @@ export const Section = styled.section`
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1.5rem;
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 3rem 2.5rem;
   transition: all 0.3s ease;
 
   &:hover {
@@ -148,23 +169,15 @@ export const Section = styled.section`
 
   h2 {
     font-size: ${typeScale.subtitle};
-    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    background: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, #ddd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-
-    &::before {
-      content: "";
-      width: 4px;
-      height: 1.2rem;
-      background: linear-gradient(135deg, #60a5fa, #a78bfa);
-      border-radius: 2px;
-    }
+    line-height: 1.4;
+    padding-bottom: 0.2rem;
   }
 
   p {

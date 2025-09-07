@@ -15,6 +15,11 @@ export const projects = [
     description: "LinkedIn Bot that connects with recruiters and sends targeted messages.",
     fullDescription: "AutoConnect is an intelligent LinkedIn automation tool that streamlines the networking process for job seekers and professionals. The bot uses advanced algorithms to identify relevant recruiters and industry professionals, then sends personalized connection requests and follow-up messages. Built with Python and Selenium, it features smart targeting based on job titles, companies, and industries, while maintaining LinkedIn's usage policies to ensure account safety.",
     technologies: ["Python", "Selenium", "BeautifulSoup", "LinkedIn API", "Machine Learning"],
+    // additionalImages: [
+    //   autoconnect,
+    //   autoconnect,
+    //   autoconnect
+    // ],
     features: [
       "Automated recruiter discovery and targeting",
       "Personalized message generation",
