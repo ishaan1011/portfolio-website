@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 import { Button, Input, Textarea } from "../../components/form";
 import { Page } from "../../components/Page";
-import { blue, green, pink, red, yellow } from "../../utils";
+import { blue, green, mindaro, pink, red, thistle, vanilla, yellow } from "../../utils";
 import {
   ContactForm,
   ContactWrapper,
@@ -78,7 +78,7 @@ export const Contact = () => {
             </a>
 
             <a href="mailto:ichadha.work@gmail.com">
-              <IconButton bg={green}>
+              <IconButton bg={mindaro}>
                 <AiOutlineMail size={40} />
               </IconButton>
             </a>
@@ -88,7 +88,7 @@ export const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IconButton bg={yellow}>
+              <IconButton bg={vanilla}>
                 <AiFillGithub size={40} />
               </IconButton>
             </a>
@@ -98,7 +98,7 @@ export const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <DownloadButton bg={red} tooltip="Download Resume">
+              <DownloadButton bg={pink} tooltip="Download Resume">
                 <AiOutlineDownload size={40} />
                 <span>Resume</span>
               </DownloadButton>

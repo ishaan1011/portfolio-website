@@ -6,7 +6,7 @@ import tiptop from "../assets/images/tiptop.png";
 import mixlab from "../assets/images/mixlab.png";
 import ucsd from "../assets/images/ucsd.png";
 
-import { glaucous, sunset, vanilla, periwinkle, emerald, mindaro, thistle } from "../utils";
+import { glaucous, sunset, vanilla, periwinkle, emerald, mindaro, pink, thistle } from "../utils";
 
 export const experiences = [
   {
@@ -71,6 +71,6 @@ export const experiences = [
     end: "September 2022",
     title: "Software Engineer Intern",
     bio: "As a Software Engineer Intern at Bajaj Capital, I improved the cloud infrastructure by optimizing key AWS solutions like EC2, SES, and ELB, which led to increased scalability, streamlined operations, and improved system uptime. I also designed a secure authentication framework using Node.js and MySQL, which reduced unauthorized access by 50% and improved login speeds for over 5,000 users.",
-    color: thistle,
+    color: pink,
   },
 ];
