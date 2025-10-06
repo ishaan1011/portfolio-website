@@ -16,7 +16,7 @@ export const experiences = [
     joined: "March 2025",
     end: "Present",
     title: "Founder",
-    bio: "As founder and lead engineer of Comm360, I'm building an AI-powered communication platform that redefines how teams collaborate. Comm360 enables AI avatars to join meetings on your behalf - listening, speaking, and acting to capture discussions, contribute intelligently, and deliver clear summaries, action items, and translations. I lead the full-stack development of the platform, integrating advanced speech, language, and real-time systems to make global communication seamless and continuous.",
+    bio: "As founder and lead engineer of Comm360, I'm building an AI-powered communication platform that redefines how teams collaborate. Comm360 enables AI avatars to join meetings on your behalf - listening, speaking, and acting to capture discussions, contribute intelligently, and deliver clear summaries, action items, and translations.",
     color: emerald, //emerald
   },
   {
