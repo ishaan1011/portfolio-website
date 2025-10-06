@@ -48,11 +48,14 @@ export const About = () => {
       <Page header="About">
         <Text>
           <Paragraph>
-                     Hi, I'm <strong>Ishaan Chadha</strong>. I'm the <strong>lead engineer at Comm360</strong>, and I'm passionate about using <strong>AI</strong> to
-           create more efficient and effective communication. My role involves building the <strong>full-stack
-           AI systems</strong> that power our platform, which turns every employee into an <strong>"always-on" AI service</strong>.
-                       Previously I conducted research on the human visual system at <strong>UCSD's NeuroML Lab</strong>. You can
-            check out my paper <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
+            Hi, I'm <strong>Ishaan Chadha</strong>, <strong>founder and lead engineer at Comm360</strong>. 
+            I'm passionate about building <strong>AI-powered systems</strong> that make workplace communication 
+            smarter, more efficient, and more actionable. At <strong>Comm360</strong>, I lead the development of our <strong>full-stack
+            AI platform</strong>, where <strong>AI avatars</strong> can join meetings on your behalf — 
+            listening, speaking, and acting to capture discussions, contribute when needed, and deliver clear 
+            summaries, action items, and translations. Previously, I conducted research on the human visual system 
+            at <strong>UCSD's NeuroML Lab</strong>. You can check out my paper 
+            <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
           </Paragraph>
           <Educations>
             <AboutItem
