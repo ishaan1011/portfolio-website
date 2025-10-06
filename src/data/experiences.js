@@ -5,6 +5,7 @@ import worldsalon from "../assets/images/worldsalon.png";
 import tiptop from "../assets/images/tiptop.png";
 import mixlab from "../assets/images/mixlab.png";
 import ucsd from "../assets/images/ucsd.png";
+import comm360 from "../assets/images/comm360.png";
 
 import { glaucous, sunset, vanilla, periwinkle, emerald, mindaro, pink, thistle } from "../utils";
 
