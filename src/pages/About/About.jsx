@@ -54,8 +54,7 @@ export const About = () => {
             AI platform</strong>, where <strong>AI avatars</strong> can join meetings on your behalf — 
             listening, speaking, and acting to capture discussions, contribute when needed, and deliver clear 
             summaries, action items, and translations. Previously, I conducted research on the human visual system 
-            at <strong>UCSD's NeuroML Lab</strong>. You can check out my paper 
-            <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
+            at <strong>UCSD's NeuroML Lab</strong>. You can check out my paper <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
           </Paragraph>
           <Educations>
             <AboutItem
