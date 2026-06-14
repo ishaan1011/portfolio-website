@@ -48,13 +48,7 @@ export const About = () => {
       <Page header="About">
         <Text>
           <Paragraph>
-            Hi, I'm <strong>Ishaan Chadha</strong>, <strong>founder and lead engineer at Comm360</strong>. 
-            I'm passionate about building <strong>AI-powered systems</strong> that make workplace communication 
-            smarter, more efficient, and more actionable. At <strong>Comm360</strong>, I lead the development of our <strong>full-stack
-            AI platform</strong>, where <strong>AI avatars</strong> can join meetings on your behalf — 
-            listening, speaking, and acting to capture discussions, contribute when needed, and deliver clear 
-            summaries, action items, and translations. Previously, I conducted research on the human visual system 
-            at <strong>UCSD's NeuroML Lab</strong>. You can check out my paper <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
+            Hi, I'm <strong>Ishaan Chadha</strong>, and I'm the <strong>6th engineer at Centralize</strong>, building out the company's core intelligence: mapping relationships within companies to uncover the hidden decision-makers in sales using <strong>knowledge graph architectures</strong>. Before that, I founded <strong>Comm360</strong>, an AI platform whose avatars join your meetings to capture the conversation and deliver clear summaries, action items, and translations. Earlier, I conducted research on the human visual system at <strong>UCSD's NeuroML Lab</strong>, where my paper was accepted into <strong>CCN 2025</strong>. You can read it <a href="https://arxiv.org/pdf/2410.14031" target="_blank" rel="noopener noreferrer">here</a>.
           </Paragraph>
           <Educations>
             <AboutItem
